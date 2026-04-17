@@ -1,48 +1,63 @@
-# Governance
+# BHoM Governance 
 
-> These principles describe how the platform team operates and makes decisions.  
-> They are not aspirational — they are the standard we hold ourselves to.
+The development of the Buildings and Habitats object Model (the BHoM) is led by a number of core maintainers within the BHoM Organisation. These individuals and their focuses are listed below.
 
----
+Contributions are very welcome and warmly encouraged either from outside of the organisation, as a collaborator added to individual repositories or alternatively from any individual's created branches or forks.
 
-## Platform Principles
+The current core maintainers are listed below, however we are actively interested in other members joining to expand and support further at every level. If interested please get in touch. You can do this through contacting individual maintainers or emailing hello@bhom.xyz or simply raising issues or submitting code. 
 
-### 1. The pipeline is the gatekeeper, not the person.
 
-Automated checks exist to catch what humans miss under pressure. We do not bypass CI, compliance, or branch protection rules to meet a deadline – even if the fault appears trivial and the fix appears obvious. A check that can be bypassed on request is a check that offers no guarantee.
+If you should have any queries around best practices in contributing or commenting on code, issues, PRs etc. please see our [Code of Conduct document here](https://github.com/BHoM/BHoM/blob/main/docs/CODE_OF_CONDUCT.md).
 
----
+## Organisation Maintainers 
 
-### 2. Convenience for one is risk for all.
+The current maintainers for the parent BHoM organisation are:  
 
-Every exception we grant sets a precedent. Before making an exception to a rule or process, we ask: would we be comfortable granting this exception to every team, every time? If not, we fix the rule rather than bypass it.
+  &nbsp;  @al-fisher  
+  &nbsp;  @rwemay  
+  &nbsp;  @adecler  
 
----
+In addition to the typical activities of a repository maintainer across the many individual repos, the Organisation Maintainers work with the core developers to set the longer term development objectives, technical direction, project governance and process for the wider BHoM project and framework.
 
-### 3. Fix the signal, not the alarm.
+## Repository or Namespace Maintainers 
 
-When a check fails on code that is believed to be correct, the correct response is to fix the check or the code – not to disable or skip the check. A misconfigured check is a platform problem to be resolved, not a justification for bypassing it. We hold the check in place while we resolve the underlying cause.
 
----
+#### Repository Maintainer Activities
+Typical activities of a Repository Maintainer include:
 
-### 4. Access is granted by the minimum needed.
+* Helping users and novice contributors  
+* Contributing code and documentation changes that improve the project  
+* Reviewing and commenting on issues and pull requests  
+* Merging pull requests  
+* Supporting both testing and any releases of code
 
-We grant the lowest permission level that allows the work to be done. Elevated access is time-bound, documented, and reverted when the need has passed. We do not leave doors open for convenience.
 
----
+A number of the key repositories and/or individual namespaces are summarised below. However for more detail on individual responsibilities for code within the core oM and Engine repositories please refer to the local CODEOWNERS documents.
+In particular, for granular breakdown for the Core Repositories see direct links [BHoM Repository Code Owners](https://github.com/BHoM/BHoM/blob/main/docs/CODEOWNERS) and [BHoM_Engine Repository Code Owners](https://github.com/BHoM/BHoM_Engine/blob/main/docs/CODEOWNERS).
 
-### 5. Nothing in production that hasn't been reviewed.
 
-All changes to shared infrastructure, CI configuration, and governance workflows go through the same review process we ask of contributors. The platform team does not hold itself to a lower standard than the repos it governs.
 
----
 
-### 6. Transparency is the default.
+#### Domain/Discipline Namespaces 
 
-Decisions, exceptions, and changes made by the platform team are documented and visible. If a decision would be uncomfortable to explain to the teams we support, it warrants more scrutiny – not less visibility.
+* Core & Framework  &nbsp;  @adecler & @FraserGreenroyd
+* Structure oM/Engine  &nbsp;  @IsakNaslundBh  
+* Environment oM/Engine  &nbsp;  @FraserGreenroyd & @JamesRamsden-BH
+* Geometery & BIM &nbsp;  @pawelbaran 
+* Data oM & Machine Learning &nbsp;  @alelom  
+* BHoM_Adapter & Interoperability  &nbsp;  @alelom
+* Structural_Adapters  &nbsp;  @IsakNaslundBh  
+* Environmental_Adapters  &nbsp;  @FraserGreenroyd & @JamesRamsden-BH  
+* Continuous Integration & Test_Toolkit  &nbsp;  @FraserGreenroyd 
 
----
 
-### 7. Automate the burden, not the judgement.
+## Decision making 
 
-We automate repetitive operational work so that humans spend their time on decisions that require context. We do not automate decisions that carry risk or require accountability – those remain with a person.
+The Buildings and Habitats object Model operates on a fully open and community led governance model. We benefit from a hugely rich diversity of contributions, with individuals sharing deep domain know-how, as well as taking responsibility for maintainance and leading areas of development.
+
+We believe in the widest possible active community. Thus all decision making is carried out collectively, with agreement reached through discussion and consensus. This includes all planning, technical objective setting and code reviews.
+
+In the unlikely and rare event that consensus is not reached on any thread - deadlock is broken and a decision is made by voting across the group of maintainers. Tie-breaking may be provided by organisation maintainers only when needed.
+
+In all cases we endeavour to transparently document all decision making and logic in the issue and pull request threads as a matter of record.
+
