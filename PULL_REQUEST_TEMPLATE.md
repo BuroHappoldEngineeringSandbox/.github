@@ -16,3 +16,12 @@ Closes #
 
 ### Test files
 <!-- Link to test files to validate the proposed changes -->
+
+
+### Changelog
+<!-- Text to go into changelog if applicable -->
+<!-- Please see https://github.com/BHoM/documentation/wiki/changelog for guidelines -->
+
+
+### Additional comments
+<!-- As required -->
